@@ -6,7 +6,7 @@ Code to accompany the paper titled "Capillary Kir channel as sensor and amplifie
 
 Notes:
 
-1. Run script files in the main project folder to reproduce each figure. Output .bmp images from each script are placed in appropriate figure-specific subfolders within the "output" folder. The various microvascular networks used in the code are .mat files in the "networks" folder. Networks are represented as graph objects using MATLAB's "Graph and Network Algorithms" functionality. Experimental data used in some figures are included in the "experimental_data" folder. Some simulation results are saved in the "saved_data" folder in order to save time when reproducing manuscript figures. External functions used are in the "functions" folder.
+1. Run script files within the "scripts" folder to reproduce each figure. Output .bmp images from each script are placed in appropriate figure-specific subfolders within the "output" folder. The various microvascular networks used in the code are .mat files in the "networks" folder. Networks are represented as graph objects using MATLAB's "Graph and Network Algorithms" functionality. Experimental data used in some figures are included in the "experimental_data" folder. Some simulation results are saved in the "saved_data" folder in order to save time when reproducing manuscript figures. External functions used are in the "functions" folder.
 
 2. Functions used from the MATLAB Central File Exchange:
 - Harald Hentschke (2020). abfload (https://www.mathworks.com/matlabcentral/fileexchange/6190-abfload), MATLAB Central File Exchange.
