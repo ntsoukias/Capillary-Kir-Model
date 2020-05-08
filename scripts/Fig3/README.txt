@@ -1,0 +1,4 @@
+- Simulations in Fig. 3C are stochastic due to the presence of TRPV4 channels. As a result, upon running the code, the results might be different from the one published in the manuscript. To reproduce Fig. 3C in the manuscript, uncomment the section that loads the TRPV4 traces and run the code. Since the code is stochastic, and that the Kir/TRPV4 activity is not modulated upon K+ stimulus, the return of the system to basal conditions might not happen in all simulations. The figure presented in the manuscript is an example where basal TRPV4 activity is sufficient in returning the cell's membrane potential to resting voltages after stimulus termination. 
+
+
+- Simulations for Fig. 3D and 3F take a long time because of the large number of parameter combinations to run. To just see the output, load the saved .mat files and run the visualization section. 
