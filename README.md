@@ -8,8 +8,7 @@ Notes:
 
 1. Run script files within the "scripts" folder to reproduce each figure. The various microvascular networks used in the code are .mat files in the "networks" folder within each script subfolder. Networks are represented as graph objects using MATLAB's "Graph and Network Algorithms" functionality. Some simulation results are saved in the "saved_data" folder within each script subfolder in order to save time when reproducing manuscript figures. Functions used are in the "functions" folder. Some simulations have inherent stochasticity and/or randomness so they may not exactly match data reported in the manuscript, however they should follow the same trend. 
 
-2. Networks used in the simulations for figures 5, 6, and 7 were created using vectorized microvascular network data from the vibrissa primary sensory cortex of a mouse aquired from Blinder et al. In-house code was used to create smaller partitions of this network for the simulations. 
-Blinder, P., Tsai, P. S., Kaufhold, J. P., Knutsen, P. M., Suhl, H., & Kleinfeld, D. (2013). The cortical angiome: an interconnected vascular network with noncolumnar patterns of blood flow. Nature neuroscience, 16(7), 889.
+2. Networks used in the simulations for figures 5, 6, and 7 were created using vectorized microvascular network data from the vibrissa primary sensory cortex of a mouse aquired from Blinder et al. Nat. Neuro. 2013 (https://www.nature.com/articles/nn.3426). In-house code was used to create smaller partitions of this network for the simulations. 
 
 3. Functions used from the MATLAB Central File Exchange:
 - Harald Hentschke (2020). abfload (https://www.mathworks.com/matlabcentral/fileexchange/6190-abfload), MATLAB Central File Exchange.
