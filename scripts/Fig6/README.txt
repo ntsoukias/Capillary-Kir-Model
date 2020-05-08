@@ -1,0 +1,1 @@
+This script only reproduces one of the 9 pictures shown in Fig. 6A of the manuscript (top right panel). Different combination of parameters can be added in Fig6A code to simulate the effect of model parameters on signal conduction within the network.
