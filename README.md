@@ -2,8 +2,6 @@
 
 Code to accompany the paper titled "Capillary Kir channel as sensor and amplifier of neuronal signals: modeling insights on  K+ -mediated neurovascular communication". Currently under review in PNAS. 
 
-*Code is currently being prepared for upload and will be uploaded shortly.*
-
 Notes:
 
 1. Run script files within the "scripts" folder to reproduce each figure. The various microvascular networks used in the code are .mat files in the "networks" folder within each script subfolder. Networks are represented as graph objects using MATLAB's "Graph and Network Algorithms" functionality. Some simulation results are saved in the "saved_data" folder within each script subfolder in order to save time when reproducing manuscript figures. Functions used are in the "functions" folder. Some simulations have inherent stochasticity and/or randomness so they may not exactly match data reported in the manuscript, however they should follow the same trend. 
@@ -17,7 +15,9 @@ Notes:
 
 4. We have tested this code using MATLAB R2019a on a Windows 10 personal computer. For error reporting and suggestions please contact Arash Moshkforoush (amosh005@fiu.edu) . We welcome your comments and suggestions.
 
-5. Arash Moshkforoush, Baarbod Ashenagar, and Nikolaos Tsoukias contributed to the development of this method.
+5. Modifying the file structure of the repository while using it may break some of the code.
 
-6. If this work is used in any way, please cite the paper and provide appropriate acknowledgement.
+6. Arash Moshkforoush, Baarbod Ashenagar, and Nikolaos Tsoukias contributed to the development of this method.
+
+7. If this work is used in any way, please cite the paper and provide appropriate acknowledgement.
 
